@@ -1,0 +1,26 @@
+{
+  "name": "grigori",
+  "version": "1.0.0",
+  "description": "Package vulnerability parser",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micha3lbrown/grigori.git"
+  },
+  "keywords": [
+    "nodejs",
+    "vulnerabilities",
+    "ranking",
+    "xml",
+    "json"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micha3lbrown/grigori/issues"
+  },
+  "homepage": "https://github.com/micha3lbrown/grigori#readme"
+}
