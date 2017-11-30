@@ -1,6 +1,10 @@
 # grigori
 Vulnerability feed parser
 
+## Monitored vulnerability feeds
+- [Ubuntu Security Notices](https://usn.ubuntu.com/usn/rss.xml)
+- [FreeBSD VuXML](http://vuxml.freebsd.org/freebsd/rss.xml)
+
 ## Notes
 - [Feed Parser](https://github.com/danmactough/node-feedparser#what-is-the-parsed-output-produced-by-feedparser) is what I'm using to parse XML feeds.
 

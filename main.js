@@ -3,12 +3,17 @@ var FeedParser = require('feedparser'),
     request = require('request');
 
 // Initialization
-var req = request('http://vuxml.freebsd.org/freebsd/rss.xml'),
-    feedparser = new FeedParser();
+var feedparser = new FeedParser();
+
+var feeds = [ 'http://vuxml.freebsd.org/freebsd/rss.xml', 'https://usn.ubuntu.com/usn/rss.xml'];
+
+debugger;
+
+var req = request(feeds[1]);
 
 // Request stream handling
 req.on('error', function (error) {
-  this.emit('error', new Error('Something went wrong with the instantiating the `request`');
+  this.emit('error', new Error('Something went wrong with the instantiating the `request`'));
 })
 
 req.on('response', function (res) {
